@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "license": "PURCHASE AT cryolayer.com",
   "main": "src/index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "clean": "del-cli public",
     "serve": "serve public",
