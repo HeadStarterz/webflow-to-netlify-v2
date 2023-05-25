@@ -6,7 +6,7 @@
   "license": "PURCHASE AT cryolayer.com",
   "private": true,
   "engines": {
-    "node": "14.x"
+    "node": "16.x"
   },
   "scripts": {
     "build": "cd packages/orchestration && BCP=1 dotenv -e ../../.env -- npm run build",
